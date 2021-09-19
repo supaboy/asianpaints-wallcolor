@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="company-logo">
+        <img src="https://www.messecongress.at/wp-content/uploads/Logo-Asian-Paints.jpg" alt="Logo Image">
+    </div>
+    
+    
+    
+    <div class="container">
+
+        <div id="1" value="1">Wall 1</div>
+        <div id="2" value="2">Wall 2</div>
+        <div id="3" value="3">Wall 3</div>
+        <div id="4" value="4">Wall 4</div>
+        <div id="5" value="5">Wall 5</div>
+        <div id="6" value="6">Wall 6</div>
+        <div id="7" value="7">Wall 7</div>
+        <div id="8" value="8">Wall 8</div>
+        <div id="9" value="9">Wall 9</div>
+    </div>
+
+    <div class="input-fields">
+        <label for="wall_id">Enter Wall ID:</label>
+        <input type="number" id="wall_id"><br> <br>
+
+        <label for="wall_id">Enter color:</label>
+        <input type="text" id="wall_color"><br> <br>
+
+        <input type="submit" onclick="changeColor()" name="Apply" value="Apply" id="apply">
+        <input type="submit" onclick="resetAll()" name="Reset" value="Reset" id="reset">
+
+        <!-- <button id="apply" onclick="changeColor()">Apply</button><br> <br>
+        <button id="reset" onclick="resetAll()">Reset</button> -->
+    </div>
+
+    
+    
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
